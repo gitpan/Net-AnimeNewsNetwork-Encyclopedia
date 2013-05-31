@@ -4,7 +4,7 @@
       "Ryosuke IWANAGA <riywo.jp@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.4.4",
+   "generated_by" : "Minilla/v0.4.5",
    "license" : "perl_5",
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -40,10 +40,10 @@
       },
       "runtime" : {
          "requires" : {
-            "Data::Validator" : "0",
+            "Data::Validator" : "1.02",
             "LWP::Simple" : "0",
-            "Moo" : "0",
-            "XML::Simple" : "0",
+            "Moo" : "1.002",
+            "XML::Simple" : "2.20",
             "perl" : "v5.10.0"
          }
       },
@@ -59,7 +59,7 @@
    "provides" : {
       "Net::AnimeNewsNetwork::Encyclopedia" : {
          "file" : "lib/Net/AnimeNewsNetwork/Encyclopedia.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -73,5 +73,5 @@
          "web" : "https://github.com/riywo/Net-AnimeNewsNetwork-Encyclopedia"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
